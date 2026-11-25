@@ -1,0 +1,43 @@
+main {
+    min-height: 100vh;
+    height: auto;
+    padding-bottom: 48px;
+}
+
+.container-admin-banner {
+    margin: 48px 0 24px;
+}
+
+.logo-admin {
+    width: min(320px, 80vw);
+}
+
+.container-form form {
+    width: min(400px, calc(100vw - 40px));
+}
+
+.login-feedback {
+    color: #fff;
+    background: #7d2424;
+    border-radius: 8px;
+    padding: 12px;
+    margin-bottom: 12px;
+    line-height: 1.4;
+}
+
+.setup-instructions {
+    color: #fff;
+    line-height: 1.5;
+    margin-bottom: 16px;
+}
+
+.login-setup-link {
+    color: #EBC181;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.container-form button {
+    font-family: inherit;
+    cursor: pointer;
+}
